@@ -31,6 +31,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 // Definição da struct Territorio
 // Armazena nome do território, cor do exército e quantidade de tropas
 
@@ -73,6 +74,8 @@ int main() {
         printf("Cor do Exercito: %s\n", territorios[i].cor);
         printf("Quantidade de tropas: %d\n", territorios[i].tropas);
     }
+
+    printf("---Fase de Ataque --- \n");
 
     return 0;
     
